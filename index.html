@@ -1,0 +1,79 @@
+<!-- guide Jq UI https://jqueryui.com/ -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>SAM LENNON </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link type="image/x-icon" href="icon.jpg" rel="icon">
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- jQuery UI CSS -->
+    <link href="js\jquery-ui-1.13.0\jquery-ui.min.css" rel="stylesheet">
+    <!-- we also have to link JQ UI in css link min.css vali file -->
+    <!-- min matlab minified commpresed version -->
+</head>
+
+<body>
+
+    <div class="container" id="todoListWrapper">
+        <h1>Make your schedule</h1>
+
+        <div id="todoList">
+            <ul>
+                <li class="listTitle">Monday</li>
+                <li class="addItem"><input type="text" placeholder="add new item..."></li>
+            </ul>
+
+            <ul>
+                <li class="listTitle">Tuesday</li>
+                <li class="addItem"><input type="text" placeholder="add new item..."></li>
+            </ul>
+            <ul>
+                <li class="listTitle">Wednesday</li>
+                <li class="addItem"><input type="text" placeholder="add new item..."></li>
+            </ul>
+            <ul>
+                <li class="listTitle">Thursday</li>
+                <li class="addItem"><input type="text" placeholder="add new item..."></li>
+            </ul>
+            <ul>
+                <li class="listTitle">Friday</li>
+                <li class="addItem"><input type="text" placeholder="add new item..."></li>
+            </ul>
+            <ul>
+                <li class="listTitle">Saturday</li>
+                <li class="addItem"><input type="text" placeholder="add new item..."></li>
+            </ul>
+            <ul>
+                <li class="listTitle">Sunday</li>
+                <li class="addItem"><input type="text" placeholder="add new item..."></li>
+            </ul>
+        </div><!-- #todoList -->
+
+    </div><!-- .container -->
+
+    <div id="trash">drop here to delete an item<br>
+        <h4>TO SAVE or PRINT (CTRL + p) / (CMD + p)</h4>
+
+    </div>
+
+
+    <!-- Load the CDN first -->
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- If CDN fails to load, serve up the local version -->
+    <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
+
+    <!-- jQuery UI -->
+    <script src="js\jquery-ui-1.13.0\jquery-ui.min.js"></script>
+    <!-- min matlab minified commpresed version -->
+    <!-- hear i also use JQUI min .js version -->
+
+    <script src="js\my_script.js"></script>
+
+</body>
+
+</html>
